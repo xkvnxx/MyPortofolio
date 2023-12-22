@@ -76,7 +76,7 @@ nav{
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
-    background-color: #075a7a;
+    background-color: #0a8ec2;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -95,7 +95,7 @@ nav{
 
 .blur{
     position: absolute;
-    box-shadow: 0 0 1000px 50px #1d4ed8;
+    box-shadow: 0 0 1000px 50px #72A0C1;
     z-index: -100;
 }
 
@@ -140,24 +140,11 @@ header .image{
     position: relative;
 }
 
-header .image::before {
-    content: "o";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 38rem;
-    font-weight: 400;
-    line-height: 20rem;
-    color: #1d4ed8;
-    opacity: 0.2;
-    z-index: -100;
-
-}
 
 header .image img{
-    max-width: 600px;
+    max-width: 300px;
     margin: auto;
+    max-height: 400px;
 }
 
 section .header{
@@ -192,7 +179,7 @@ section .header{
 
 .features .card span{
     display: inline-block;
-    background-color: #1e40af;
+    background-color: #72A0C1;
     padding:  2px 9px;
     margin-bottom:  1rem;
     font-size: 1.75rem;
@@ -351,10 +338,11 @@ footer .column > a{
     columns: #ccc;
     margin-bottom:  1rem;
     transition: all 0.3s ease;
+    color: #6699CC;
 }
 
 footer .column > a:hover{
-    color: #1d4ed8;
+    color: #6CB4EE;
 }
 
 .copyright{
